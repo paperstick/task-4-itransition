@@ -22,7 +22,7 @@ class Register extends Component {
 
   	onClickRegister = () => {
     	const { username, email, password } = this.state;
-    	axios.post('https://task4-itransition.herokuapp.com//register', { 
+    	axios.post('https://task4-itransition.herokuapp.com/register', { 
     		username, 
     		email, 
     		password, 
